@@ -6,19 +6,19 @@
     "node": "^14.18.0 || >=16.0.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "pnpm --filter=./examples run dev",
+    "build": "pnpm --filter=./examples run build"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "antd": "^4.21.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.15",
     "@types/react-dom": "^18.0.6",
-    "@vitejs/plugin-react": "^2.0.0",
-    "typescript": "^4.7.4",
-    "vite": "^3.0.2"
+    "typescript": "^4.7.4"
   }
 }
