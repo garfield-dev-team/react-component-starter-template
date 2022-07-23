@@ -77,6 +77,8 @@ import { MyButton } from "@garfield-react-component/button";
 
 ### 1) 组件库文档
 
+每个子模块需要暴露两个入口，一个是 `index.tsx` 作为打包入口，另一个是 `index.md`，作为组件库文档的入口。
+
 - 文件系统路由
 - md 文件编译
 
