@@ -6,7 +6,7 @@ const MyButton: React.FC = () => {
     <div>
       <Button>2333</Button>
     </div>
-  )
-}
+  );
+};
 
 export { MyButton };
