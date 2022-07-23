@@ -75,8 +75,12 @@ import { MyButton } from "@garfield-react-component/button";
 
 ## 待解决问题
 
-- 组件库文档
-  - 文件系统路由
-- 组件库如何提供给业务工程使用
-  - NPM 发包
-  - Module Federation
+### 1) 组件库文档
+
+- 文件系统路由
+- md 文件编译
+
+### 2) 组件库如何提供给业务工程使用
+
+- NPM 发包
+- Module Federation
